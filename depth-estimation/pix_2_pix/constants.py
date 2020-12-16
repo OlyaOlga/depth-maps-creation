@@ -1,0 +1,15 @@
+import os
+
+BUFFER_SIZE = 400
+BATCH_SIZE = 1
+IMG_WIDTH = 256
+IMG_HEIGHT = 256
+OUTPUT_CHANNELS = 1
+LAMBDA = 100
+EPOCHS = 200
+
+IS_DEBUG = False
+INITIAL_SHAPE = (640, 480)
+CHECKPOINT_DIR = 'training_checkpoints_test'
+CHECKPOINT_PREFIX = os.path.join(CHECKPOINT_DIR, "ckpt")
+LOG_DIR  = "logs/"
